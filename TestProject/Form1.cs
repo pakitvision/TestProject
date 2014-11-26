@@ -28,7 +28,6 @@ namespace TestProject
 
         private void btnGetSum_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show("Sum is=" + MathHelper.GetSum(5, 10).ToString());
             this.lblResult.Text = string.Format("Result: {0}", MathHelper.GetSum(Convert.ToInt32(this.txtInput1.Text), Convert.ToInt32(this.txtInput2.Text)));
         }
 
