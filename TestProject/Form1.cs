@@ -19,6 +19,8 @@ namespace TestProject
         private void Form1_Load(object sender, EventArgs e)
         {
             MessageBox.Show("Welcome");
+            MessageBox.Show("Welcome Again");
+            MessageBox.Show("Welcome Again Again");
         }
     }
 }
