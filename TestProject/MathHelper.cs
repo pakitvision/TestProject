@@ -26,6 +26,7 @@ namespace TestProject
             return Math.PI;
         }
 
+
         public static double GetSqrt(double number) {
             return Math.Sqrt(number);
         }
