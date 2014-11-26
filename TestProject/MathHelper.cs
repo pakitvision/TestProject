@@ -29,6 +29,10 @@ namespace TestProject
         public static double GetSqrt(double number) {
             return Math.Sqrt(number);
         }
+        public static int ReturnSameInput(int input)
+        {
+            return input;
+        }
         public static double CalcualteTotalDurationMinutes(short durationHours, short durationMinutes, short durationSeconds)
         {
             return (double)((durationHours * 60) + durationMinutes + (double)Math.Round(((double)durationSeconds / 60.0d), 2));
