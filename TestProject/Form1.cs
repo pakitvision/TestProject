@@ -18,17 +18,17 @@ namespace TestProject
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Welcome");
-            MessageBox.Show("Welcome Again");
-            MessageBox.Show("Welcome Again Again");
-            MessageBox.Show("Sarfraz Asghar");
+            
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            MessageBox.Show("Going to close");
-            MessageBox.Show("Going to close 2nd time");
-            MessageBox.Show("Going to close 2nd time");
+            
+        }
+
+        private void btnGetSum_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Sum is=" + MathHelper.GetSum(5, 10).ToString());
         }
     }
 }
