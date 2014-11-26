@@ -27,6 +27,7 @@ namespace TestProject
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             MessageBox.Show("Going to close");
+            MessageBox.Show("Going to close 2nd time");
         }
     }
 }
