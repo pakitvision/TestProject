@@ -23,5 +23,10 @@ namespace TestProject
             MessageBox.Show("Welcome Again Again");
             MessageBox.Show("Sarfraz Asghar");
         }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            MessageBox.Show("Going to close");
+        }
     }
 }
