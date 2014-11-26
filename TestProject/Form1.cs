@@ -28,6 +28,7 @@ namespace TestProject
         {
             MessageBox.Show("Going to close");
             MessageBox.Show("Going to close 2nd time");
+            MessageBox.Show("Going to close 3rd time");
         }
     }
 }
