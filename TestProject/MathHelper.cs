@@ -15,5 +15,10 @@ namespace TestProject
         {
             return firstVal - secondVal;
         }
+
+        public static double GetProduct(double value1, double value2)
+        {
+            return Math.Round(Convert.ToDouble(value1 * value2), 2);
+        }
     }
 }

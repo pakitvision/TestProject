@@ -30,5 +30,10 @@ namespace TestProject
         {
             MessageBox.Show("Sum is=" + MathHelper.GetSum(5, 10).ToString());
         }
+
+        private void btnMultiply_Click(object sender, EventArgs e)
+        {
+            this.lblResult.Text = string.Format("Result: {0}", MathHelper.GetProduct(Convert.ToDouble(this.txtInput1.Text), Convert.ToDouble(this.txtInput2.Text)));
+        }
     }
 }
