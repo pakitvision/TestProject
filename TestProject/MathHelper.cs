@@ -20,5 +20,10 @@ namespace TestProject
         {
             return Math.Round(Convert.ToDouble(value1 * value2), 2);
         }
+
+        public static double CalcualteTotalDurationMinutes(short durationHours, short durationMinutes, short durationSeconds)
+        {
+            return (double)((durationHours * 60) + durationMinutes + (double)Math.Round(((double)durationSeconds / 60.0d), 2));
+        }
     }
 }
