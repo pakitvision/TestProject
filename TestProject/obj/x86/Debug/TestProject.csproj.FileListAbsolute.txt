@@ -5,3 +5,4 @@ D:\Development\PakITVision\TestProject\TestProject\obj\x86\Debug\TestProject.csp
 D:\Development\PakITVision\TestProject\TestProject\obj\x86\Debug\TestProject.exe
 D:\Development\PakITVision\TestProject\TestProject\obj\x86\Debug\TestProject.pdb
 D:\Development\PakITVision\TestProject\TestProject\obj\x86\Debug\TestProject.Form1.resources
+D:\Development\PakITVision\TestProject\TestProject\obj\x86\Debug\TestProject.csprojResolveAssemblyReference.cache
