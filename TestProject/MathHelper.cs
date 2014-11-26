@@ -20,5 +20,14 @@ namespace TestProject
         {
             return Math.Round(Convert.ToDouble(value1 * value2), 2);
         }
+
+        public static double GetPI()
+        {
+            return Math.PI;
+        }
+
+        public static double GetSqrt(double number) {
+            return Math.Sqrt(number);
+        }
     }
 }
